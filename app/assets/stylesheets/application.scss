@@ -1,0 +1,35 @@
+@import "bootstrap/scss/bootstrap";
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+body {
+  text-decoration: none;
+  padding: 20px;
+}
+
+#details {
+  border: 1px solid lightgrey;
+  width:400px;
+  padding: 20px 15px;
+  border-radius: 4px;
+  background-color: #e9ecef;
+  color: #293241;
+}
+
+li {
+  display: flex;
+  margin-right: 6px;
+}
+
+.link {
+  color: #5390d9;
+}
+
+.far {
+  font-size: 14px;
+  margin-right: 8px;
+  padding-top: 5px;
+}
+
+.fas {
+  margin-right: 8px;
+}
