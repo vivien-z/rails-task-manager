@@ -34,7 +34,7 @@ class TasksController < ApplicationController
   def update
     set_task
     @task.update(validate_task_params)
-    redirect_to task_path(@task)
+    redirect_to task_path(@task.id)
   end
 
   private
